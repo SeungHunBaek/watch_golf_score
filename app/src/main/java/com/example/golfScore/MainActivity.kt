@@ -80,4 +80,12 @@ class MainActivity : Activity() {
             }
         }
     }
+
+    private fun getImage(currentScore: Int): Int {
+        if(currentScore ==  0){
+            return R.drawable.cookie
+        }
+
+        return R.drawable.cookie2
+    }
 }
