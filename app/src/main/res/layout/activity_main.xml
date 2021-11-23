@@ -8,7 +8,7 @@
     android:layout_centerInParent="false"
     android:layout_centerVertical="false"
     android:orientation="vertical"
-    android:background="@drawable/cookie"
+    android:background="@drawable/cnt0"
     android:padding="@dimen/box_inset_layout_padding"
     tools:context=".MainActivity">
 
@@ -19,7 +19,7 @@
 
         <Button
             android:id="@+id/minus"
-            android:layout_width="wrap_content"
+            android:layout_width="75dp"
             android:layout_height="150dp"
             android:background="#00FFFFFF"
             android:text="-"
@@ -39,7 +39,7 @@
 
         <Button
             android:id="@+id/plus"
-            android:layout_width="wrap_content"
+            android:layout_width="75dp"
             android:layout_height="150dp"
             android:background="#00FFFFFF"
             android:text="+"

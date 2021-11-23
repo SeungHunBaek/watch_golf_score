@@ -1,3 +1,4 @@
+
 package com.example.golfScore
 
 import android.app.Activity
@@ -39,6 +40,44 @@ class MainActivity : Activity() {
         reset.setOnClickListener{
             resultView.text = 0.toString();
             background.setBackgroundResource(getImage(0));
+        }
+    }
+
+    private fun getImage(currentScore: Int): Int {
+        when (currentScore) {
+            0 -> {
+                return R.drawable.cnt0
+            }
+            1 -> {
+                return R.drawable.cnt1
+            }
+            2 -> {
+                return R.drawable.cnt2
+            }
+            3 -> {
+                return R.drawable.cnt3
+            }
+            4 -> {
+                return R.drawable.cnt4
+            }
+            5 -> {
+                return R.drawable.cnt5
+            }
+            6 -> {
+                return R.drawable.cnt6
+            }
+            7 -> {
+                return R.drawable.cnt7
+            }
+            8 -> {
+                return R.drawable.cnt8
+            }
+            9 -> {
+                return R.drawable.cnt9
+            }
+            else -> {
+                return R.drawable.cnt10
+            }
         }
     }
 
